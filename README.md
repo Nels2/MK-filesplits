@@ -1,6 +1,6 @@
 # MK-filesplits
 A shell script I made to split files up and rename them and append ```print "/ip firewall address-list``` at the beginning. I made this because I was working on a very low end MikroTik routerboard. I used two ethernet ports; one for internet and one to connect my machine to router itself.
-Use this on a linux machine with Gawk & mmv installed. **Use in conjunction with https://github.com/pwlgrzs/Mikrotik-Blacklist/blob/master/blacklist.rsc.[place the files from this repo within the linked one.]**
+Use this on a linux machine with Gawk & mmv installed. **Use in conjunction with [https://github.com/pwlgrzs/Mikrotik-Blacklist.git] [place the files from this MK-fielsplits repo within the linked one.]** you only need "blacklist.rsc"
 ## How it all works 
 First I followed: [cron man-page](http://www.scrounge.org/linux/cron.html) to learn how to automate shell scripts. It was as simple as creating a file named "foo.cron" and adding ``` 10 14 * * 1 /path/to/Mikrotik-Blacklist/filesplitterv2.sh```. This runs my script once a week, every monday. This was all done on a seperate Linux Machine.
 Filesplitterv2.sh pulls the latest git [https://github.com/pwlgrzs/Mikrotik-Blacklist.git] and pulls the blacklist.rsc file.
