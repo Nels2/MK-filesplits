@@ -1,1 +1,7 @@
-/tool fetch url="sftp://192.168.88.254/home/pi/Downloads/Mikrotik-Blacklist/xaa.auto.rsc" user=pi password=No2002 dst-path=disk2; /tool fetch url="sftp://192.168.88.254/home/pi/Downloads/Mikrotik-Blacklist/xab.auto.rsc" user=pi password=No2002 dst-path=disk2; /tool fetch url="sftp://192.168.88.254/home/pi/Downloads/Mikrotik-Blacklist/xac.auto.rsc" user=pi password=No2002 dst-path=disk2; /tool fetch url="sftp://192.168.88.254/home/pi/Downloads/Mikrotik-Blacklist/xad.auto.rsc" user=pi password=No2002 dst-path=disk2; /tool fetch url="sftp://192.168.88.254/home/pi/Downloads/Mikrotik-Blacklist/xae.auto.rsc" user=pi password=No2002 dst-path=disk2; /tool fetch url="sftp://192.168.88.254/home/pi/Downloads/Mikrotik-Blacklist/xaf.auto.rsc" user=pi password=No2002 dst-path=disk2; /tool fetch url="sftp://192.168.88.254/home/pi/Downloads/Mikrotik-Blacklist/xag.auto.rsc" user=pi password=No2002 dst-path=disk2; 
+/tool fetch url="sftp://192.168.88.254/path/to/Mikrotik-Blacklist/xaa.auto.rsc" user=pi password=%% dst-path=disk2; 
+/tool fetch url="sftp://192.168.88.254/path/to/Mikrotik-Blacklist/xab.auto.rsc" user=pi password=%% dst-path=disk2; 
+/tool fetch url="sftp://192.168.88.254/path/to/Mikrotik-Blacklist/xac.auto.rsc" user=pi password=%% dst-path=disk2; 
+/tool fetch url="sftp://192.168.88.254/path/to/Mikrotik-Blacklist/xad.auto.rsc" user=pi password=%% dst-path=disk2; 
+/tool fetch url="sftp://192.168.88.254/path/to/Mikrotik-Blacklist/xae.auto.rsc" user=pi password=%% dst-path=disk2; 
+/tool fetch url="sftp://192.168.88.254/path/to/Mikrotik-Blacklist/xaf.auto.rsc" user=pi password=%% dst-path=disk2; 
+/tool fetch url="sftp://192.168.88.254/path/to/Mikrotik-Blacklist/xag.auto.rsc" user=pi password=%% dst-path=disk2; 
