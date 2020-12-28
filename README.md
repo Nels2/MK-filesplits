@@ -17,7 +17,7 @@ Filesplitterv2.sh pulls the latest git [https://github.com/pwlgrzs/Mikrotik-Blac
 - Finally, each file is renamed from "xa*" to "xa*.auto.rsc", and appends ```/ip firewall address-list``` to beginning of each of the seven files.
 # How it all works via the MikroTik
 Next I created a script[Let's call it 'Fetcher', also included in this repo] on the MikroTik router **[I used model: __RB751U-2HnD__]** that sshs[(IP's I used)192.168.88.1 -> 192.168.88.254/path/to/Mikrotik-Blacklist/x**.auto.rsc] into the linux machine used earlier, grabs the files xa[a-g].auto.rsc and imports them into the MikroTik router onto a usb drive labeled as 'Disk2'. 
--Note: Insert an external usb drive to MikroTik, and format as following: ```/disk format-drive 0 file-system=ext3 label=flashdrive``` prior to running fetcher.
+- Note: Insert an external usb drive to MikroTik, and format as following: ```/disk format-drive 0 file-system=ext3 label=flashdrive``` prior to running fetcher.
 - Create a scheduler event called 'fetcher-start' on the MikroTik that runs Fetcher once every seven days to fetch the newly split files from the linux machine(__you must point it to the right IP/URL__).
 - Create another scheduler event titled "blacklist-replace"[forked from pwlgrzs] runs that imports all the IP's that the newly imported files contain. This also runs every seven days, on the same day[Monday, or whatever day it is set to.], 8 minutes[again, can be set to desired amount of time] after "fetcher-start".
 # Some final thoughts..
