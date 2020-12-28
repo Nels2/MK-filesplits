@@ -22,4 +22,5 @@ Next I created a script[Let's call it 'Fetcher', also included in this repo] on 
 - Create another scheduler event titled "blacklist-replace"[forked from pwlgrzs] runs that imports all the IP's that the newly imported files contain. This also runs every seven days, on the same day[Monday, or whatever day it is set to.], 8 minutes[again, can be set to desired amount of time] after "fetcher-start".
 # Some final thoughts..
 I have also included the cron file I used to automate filesplitterv2.sh for me.[Will run path/to/filesplitterv2.sh at 2:10pm on every Monday]
-Feel free to use or optimize. **Make sure to update IP's, and Directories so the script actually works.**
+- Feel free to use or optimize.
+- **Make sure to update IP's, and Directories so the script actually works.**
