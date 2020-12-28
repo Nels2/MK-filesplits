@@ -79,6 +79,7 @@ gawk '
 gawk '
       BEGIN{print "/ip firewall address-list"}
       {print $0}' xag.auto.rsc > temp-xag.rsc && mv temp-xag.rsc xag.auto.rsc
-echo "files have been sucessfully split, and are ready to be collected by the Router via SFTP!"
+echo "files have been sucessfully split, and are ready to be collected by the Router via SFTP! Connect via:"
+ifconfig | grep "inet 192"
 echo -e "\e[34;47m* RESULTS *\e[0m"
-ls /home/pi/Downloads/Mikrotik-Blacklist | grep .auto.rsc
+ls /path/to/currentdir/ | grep .auto.rsc
