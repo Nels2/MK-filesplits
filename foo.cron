@@ -1,1 +1,1 @@
-10 14 * * 1 /home/pi/Downloads/Mikrotik-Blacklist/filesplitterv2.sh
+10 14 * * 1 /path/to/filesplitterv2.sh
