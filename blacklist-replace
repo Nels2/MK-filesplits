@@ -1,0 +1,8 @@
+/ip firewall address-list remove [find where comment="blacklist"]; 
+/import file-name=disk3/xaa.auto.rsc; 
+/import file-name=disk3/xab.auto.rsc; 
+/import file-name=disk3/xac.auto.rsc; 
+/import file-name=disk3/xad.auto.rsc; 
+/import file-name=disk3/xae.auto.rsc; 
+/import file-name=disk3/xaf.auto.rsc; 
+/import file-name=disk3/xag.auto.rsc;
