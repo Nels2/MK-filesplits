@@ -1,1 +1,7 @@
-10 14 * * 1 /path/to/filesplitterv2.sh
+#Borrowed from anacron
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+#End borrowed from anacron
+
+5 14 * * 1 cd /home/nelly/Mikrotik-Blacklist && git pull
+10 14 * * 1 /home/nelly/Mikrotik-Blacklist/filesplitterv2.sh                                           
