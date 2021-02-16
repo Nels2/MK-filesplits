@@ -1,0 +1,7 @@
+#Borrowed from anacron
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+#End borrowed from anacron
+
+
+10 14 * * 1 cd /path/to/Mikrotik-Blacklist/
