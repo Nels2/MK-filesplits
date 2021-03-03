@@ -30,3 +30,4 @@ x is a placeholder besides in xa[x].auto.rsc where the first x is actually part 
 I have also included the cron file I used to automate filesplitterv2.sh for me.[Will run path/to/filesplitterv2.sh at 2:10pm on every Monday]
 - Feel free to use or optimize.
 - **Make sure to update IP's, and Directories so the script actually works.**
+ 
