@@ -1,0 +1,3 @@
+mput xa*.auto.rsc
+rm xa*.auto.log
+quit
