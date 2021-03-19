@@ -1,3 +1,4 @@
+rm xa*.auto.rsc
 mput xa*.auto.rsc
 rm xa*.auto.log
 quit
