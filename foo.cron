@@ -5,3 +5,4 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
 5 14 * * 1 cd /home/nelly/Mikrotik-Blacklist && git pull
 10 14 * * 1 /home/nelly/Mikrotik-Blacklist/filesplitterv2.sh                                           
+15 14 * * 1 /home/nelly/Mikrotik-Blacklist/upload.sh  
