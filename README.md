@@ -1,5 +1,4 @@
 # MK-filesplits
-# **OUT OF DATE, need to update for new alternative method which pushes *.rsc files to mikrotik instad of having the MT grab the *.rsc files.**
 A shell script I made to split files up and rename them and append ```print "/ip firewall address-list``` at the beginning. I made this because I was working on a very low end MikroTik routerboard. I used two ethernet ports; one for internet and one to connect my machine to router itself.
 # Lets Start!
 Use this on a linux machine with Gawk & mmv installed. **Use in conjunction with [https://github.com/pwlgrzs/Mikrotik-Blacklist.git] [place the files from this MK-fielsplits repo within the linked one.]** you only need "blacklist.rsc" 
